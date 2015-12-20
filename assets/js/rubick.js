@@ -310,7 +310,7 @@ rubik = {
                   var window_bottom = $(window).scrollTop();
                   var $image = $elem.children('img');
                               	  
-            	  oVal = -((window_bottom - parent_top) / 3)*3.5;
+            	  oVal = ((window_bottom - parent_top) / 3)*2;
                   $image.css('transform','translate3d(0px, ' + oVal + 'px, 0px)');    
         	    }
             });
