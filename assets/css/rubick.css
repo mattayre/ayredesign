@@ -3892,8 +3892,12 @@ body.noscroll {
 }
 
 .project img{
+   -webkit-transition: all .3s;
   -webkit-transform:scale(1);
+  transform:scale(1.2);
 }
-.project  .over-area:hover img {
-  -webkit-transform:scale(1);
+.project:hover img {
+  -webkit-transition: all .3s;
+  -webkit-transform:scale(1.2);
+  transform:scale(1);
 }
