@@ -6496,6 +6496,7 @@ button.close {
     display: inline-block !important;
   }
 }
+/* matt ayre edited out to overide video player not working on smaller media devices
 @media (max-width: 767px) {
   .hidden-xs {
     display: none !important;
@@ -6506,6 +6507,7 @@ button.close {
     display: none !important;
   }
 }
+*/
 @media (min-width: 992px) and (max-width: 1199px) {
   .hidden-md {
     display: none !important;
