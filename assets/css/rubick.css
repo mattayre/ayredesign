@@ -3906,7 +3906,7 @@ body.noscroll {
 } 
 .navbar-default {
   background-color: rgba(0,0,0,.8);
-  height: 100px;
+  height: 70px;
 }
 
 .project img{
@@ -3918,5 +3918,10 @@ body.noscroll {
   -webkit-transition: all .3s;
   -webkit-transform:scale(1.2);
   transform:scale(1);
+}
+@media (max-width: 992px) {
+  #video_background {
+    -webkit-filter:brightness(50%);
+  }
 }
 
